@@ -8,11 +8,12 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var gudinhoMusicas : TextView
-    lateinit var bt_verMusicas : Button
+    lateinit var bt_verfimes : Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,9 +24,12 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
         inicializar_elementos()
 
-        bt_verMusicas.setOnClickListener{
+
+
+        bt_verfimes.setOnClickListener{
             val intent = Intent(
                 this,
                 tela_de_genero::class.java
@@ -38,7 +42,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun inicializar_elementos(){
 
-        bt_verMusicas = findViewById(R.id.bt_verMusicas)
+        bt_verfimes = findViewById(R.id.bt_verfimes)
 
     }
 
