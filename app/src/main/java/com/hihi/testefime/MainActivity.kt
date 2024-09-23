@@ -11,8 +11,10 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
-
-    lateinit var bt_verfimes : Button
+    private lateinit var textView: TextView
+    private lateinit var textView5: TextView
+    lateinit var bt_verMusicas: Button
+    lateinit var reciclevilMusicas: RecyclerView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        bt_verfimes.setOnClickListener{
+        bt_verMusicas.setOnClickListener{
             val intent = Intent(
                 this,
                 tela_de_genero::class.java
@@ -42,7 +44,11 @@ class MainActivity : AppCompatActivity() {
     }
     private fun inicializar_elementos(){
 
-        bt_verfimes = findViewById(R.id.bt_verfimes)
+        textView = findViewById(R.id.textView)
+        textView5 = findViewById(R.id.textView5)
+
+        bt_verMusicas = findViewById(R.id.bt_verMusicas)
+        reciclevilMusicas = findViewById(R.id.musicaro)
 
     }
 

@@ -25,11 +25,5 @@
         app:layout_constraintTop_toTopOf="@+id/guideline"
         tools:layout="@layout/fragment_blank"/>
 
-    <Button
-        android:id="@+id/voltar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Voltar"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="16dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

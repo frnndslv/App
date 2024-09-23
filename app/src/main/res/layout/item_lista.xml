@@ -6,22 +6,14 @@
     android:layout_height="120dp">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/artista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="16dp"
         android:text="Bela do crepusculo"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/infoRoTaus"
-        android:layout_width="142dp"
-        android:layout_height="39dp"
-        android:layout_marginEnd="24dp"
-        android:text="Letra"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -33,4 +25,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5"
         app:srcCompat="@drawable/tttt" />
+
+    <TextView
+        android:id="@+id/musica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:text="Thousan years"
+        app:layout_constraintBottom_toTopOf="@+id/artista"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
 </androidx.constraintlayout.widget.ConstraintLayout>
