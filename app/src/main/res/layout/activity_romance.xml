@@ -7,30 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".Romantica">
 
-    <TextView
-        android:id="@+id/textView"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView3"
+        android:name="com.hihi.testefime.fragments.BlankFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bela dormecida"
-        android:textSize="34sp"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="314dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="417dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="A bela e a fera"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.841"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.335" />
+        tools:layout_editor_AbsoluteX="250dp"
+        tools:layout_editor_AbsoluteY="250dp"
+        tools:layout="@layout/fragment_blank2"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

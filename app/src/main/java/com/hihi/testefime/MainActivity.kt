@@ -11,8 +11,8 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var gudinhoFilmes : TextView
-    lateinit var bt_verfimes : Button
+    lateinit var gudinhoMusicas : TextView
+    lateinit var bt_verMusicas : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
         inicializar_elementos()
 
-        bt_verfimes.setOnClickListener{
+        bt_verMusicas.setOnClickListener{
             val intent = Intent(
                 this,
                 tela_de_genero::class.java
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun inicializar_elementos(){
 
-        bt_verfimes = findViewById(R.id.bt_verfimes)
+        bt_verMusicas = findViewById(R.id.bt_verMusicas)
 
     }
 
