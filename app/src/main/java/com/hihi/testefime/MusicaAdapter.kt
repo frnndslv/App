@@ -50,10 +50,10 @@ class MusicaAdapter (
     override fun onBindViewHolder(MusicaViewHolder: MusicaViewHolder, position: Int){
         val musica = lista[position]
         MusicaViewHolder.musica.text = musica.musica
-        MusicaViewHolder.imagem.setImageResource(R.drawable.tttt) = musica.imagem
+      //  MusicaViewHolder.imagem.setImageResource(R.drawable.tttt) = musica.imagem
         MusicaViewHolder.artista.text = musica.artista
 
-        reciclevilMusicas.layoutManager = LinearLayoutManager(this)
+       // reciclevilMusicas.layoutManager = LinearLayoutManager(this)
 
 
 

@@ -14,4 +14,4 @@ val musicas = listOf(
 
 
     )
-    reciclevilMusicas.adapter = MusicaAdapter(musicas)
+    //reciclevilMusicas.adapter = MusicaAdapter(musicas)
